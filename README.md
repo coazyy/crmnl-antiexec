@@ -10,7 +10,7 @@ foreach (var player in NAPI.Pools.GetAllPlayers())
 }
 ```
 
-This is based for the GVMP Crimelife Script. 
+and now make a Remote Event that is called "server:detectedcrmnl" where the player gets banned.
 
 
 ## Contributing
