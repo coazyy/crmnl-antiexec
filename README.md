@@ -5,8 +5,8 @@ Just go to your "OnSecondSpent" Handler and put the following Code in.
 ```csharp
 foreach (var player in NAPI.Pools.GetAllPlayers())
 {
-                    p.Eval("mp.events.call('sexnow', 'mp.game.graphics.notify(`crmnl Executor Found!`)');");
-                    p.Eval("mp.events.call('sexnow', 'mp.events.callRemote(`server:detectedcrmnl`);')");
+                    player.Eval("mp.events.call('sexnow', 'mp.game.graphics.notify(`crmnl Executor Found!`)');");
+                    player.Eval("mp.events.call('sexnow', 'mp.events.callRemote(`server:detectedcrmnl`);')");
 }
 ```
 
