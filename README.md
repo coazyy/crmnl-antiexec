@@ -21,6 +21,10 @@ public void okbro(Client p)
 }
 ```
 
+# NodeJS
+
+If your Server-Side is on NodeJS just follow the steps in the Video: https://www.youtube.com/watch?v=xDWgWyq-2bc
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
